@@ -12,7 +12,7 @@
  *
  */
 metadata {
-	definition (name: "Child Switch", namespace: "josephhajduk", author: "Joseph Hajduk", ocfDeviceType: "oic.d.switch", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
+	definition (name: "Child Switch", namespace: "josephhajduk", author: "Joseph Hajduk", ocfDeviceType: "oic.d.switch", minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
 		capability "Actuator"
 		capability "Indicator"
 		capability "Switch"
